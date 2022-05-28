@@ -1,0 +1,291 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+  padding: 15px 20px;
+  margin: 25px;
+  text-align: center;
+  font-style: bold;
+  background-color: salmon;
+  box-shadow: 20px 20px 50px 3px teal inset;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:  space-evenly;
+  align-content:  stretch;
+  flex-flow:  column nowrap;
+  border-radius: 8px;
+/*  box-shadow: 200px 200px 50px 10px silver inset;*/
+}
+.container p {
+  display: flex;
+  justify-content: start;
+  align-items: space-evenly;
+  align-content: stretch;
+  flex-flow: row wrap;
+  text-align: left;
+  flex-grow: 1;
+  border-radius: 4px;
+  border: 1px teal;
+}
+.btn-group {
+  display: flex;
+  padding: 4px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+ /* box-shadow: 20px 20px 100px 5px gray inset;*/
+  align-content: stretch;
+  background-color: transparent;
+  flex-grow: 2;
+}
+.btn-sub-group {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2px;
+  border: 2px transparent inset;
+  border-radius: 6px;
+  justify-content: space-evenly;
+  align-items: stretch;
+  box-shadow: 20px 20px 50px 10px salmon, 20px 20px 70px 7px teal inset, 20px 20px 70px 3px silver;
+  align-content: stretch;
+  background-color: gray;
+}
+
+.btn-group button {
+  display: flex;
+  opacity: 1;
+  flex-flow: column nowrap;
+  background-color: transparent;
+  color: white;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  padding: 15px 15px;
+  flex-grow: 1;
+  border: 0.5px gray outset;
+ /* width: device-width;*/
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 1px salmon inset, 40px 40px 50px 25px gray;
+}
+
+
+.btn-sub-group button {
+  border: 0.5px gray outset;
+  border-radius: 6px;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 2px gray inset;
+  color: white;
+  background-color: gray;
+  padding: 12px 12px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 1;
+  flex-grow: 2;
+}
+
+.image-box {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: transparent;
+  justify-content: center;
+  align-content: space-between;
+  align-items: space-around;
+  padding: 50px;
+  opacity: 1;
+  flex-grow: 1;
+  border: 0.5px transparent inset;
+  width: device-width;
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 1px salmon inset, 40px 40px 50px 25px gray;
+}
+.image-box img {
+  border: 12px transparent;
+  border-radius: 8px;
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+}
+.thing {
+  background-color: red;
+  padding: 50px;
+  border: 0.1px salmon outset;
+}
+
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  background-color: transparent;
+ /* box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 2px gray inset;
+  border-radius: 8px;*/
+  padding: 10px;
+  font-style: underline;
+}
+.header:hover {
+  opacity: 1;
+}
+
+.sub-header {
+  background-color: transparent; 
+  box-shadow: 20px 20px 100px 5px silver, 20px 20px 100px 5px gray inset;
+  border: 0px outset silver;
+  padding: 1px;
+  border-radius: 8px;
+  font-style: italic;
+  flex-grow: 4;
+}
+.sub-header-2 {
+  background-color: transparent; 
+  box-shadow: 20px 20px 100px 5px silver, 20px 20px 100px 50px gray;
+  padding: 1px;
+  border-radius: 8px;
+  font-style: italic;
+  flex-grow: 0;
+}
+
+.output-field {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: space-between;
+  border-radius: 8px;
+  background-color: transparent;
+  box-shadow: 20px 20px 50px 6px silver, 20px 20px 50px 2px gray inset;
+  border: 0.5px gray;
+  color: black;
+  padding: 4px;
+  height: 200px;
+  width: device-width;
+  flex-grow: 1;
+}
+
+.custom-button {
+  display: flex;
+  opacity: 1;
+  flex-flow: column nowrap;
+  background-color: transparent;
+  color: white;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  padding: 15px 15px;
+  flex-grow: 2;
+  border: 0.5px gray outset;
+  width: device-width;
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 1px salmon inset, 40px 40px 50px 25px gray;
+}
+.custom-button:hover {
+  opacity: 0.5;
+}
+.custom-button:after {
+  opacity: 1;
+}
+
+
+.playing {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  background-color: transparent;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 12px salmon outset;
+  border-radius: 8px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.input-group {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: space-evenly;
+  border-radius: 8px;
+ /* background-color: transparent;
+  box-shadow: 20px 20px 50px 6px silver, 20px 20px 50px 2px gray inset;*/
+  color: black;
+  padding: 4px;
+  /*height: 20px;*/
+  width: device-width;
+  flex-grow: 1;
+}
+.field-group {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: space-between;
+  padding: 2px;
+}
+
+.field-group input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  background-color: silver;
+  border: 1px inset silver;
+  color: black;
+  margin: auto;
+  width: 60%;
+  padding: 1px;
+  text-align: center;
+  flex-grow: 1;
+}
+.input-group input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  background-color: silver;
+  border: 1px inset silver;
+  color: black;
+ /* margin: auto;
+  width: 60%;*/
+  padding: 1px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.input-group button {
+  display: flex;
+  opacity: 1;
+  flex-flow: column nowrap;
+  background-color: transparent;
+  color: white;
+  justify-content: center;
+  align-content: stretch;
+  align-items: stretch;
+  padding: 15px 15px;
+  flex-grow: 1;
+  border: 0.5px gray outset;
+  width: device-width;
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px 10px silver, 20px 20px 50px 1px salmon inset, 40px 40px 50px 25px gray;
+}
+
+.cust-span{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: space-between;
+  background-color: transparent;
+  border-radius: 6px;
+  height: 40px;
+  color: black;
+  padding: 2px;
+  flex-grow: 0;
+  font-style: normal;
+}
+.cust-span span {
+  flex-grow: 1;
+}
